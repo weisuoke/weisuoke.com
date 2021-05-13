@@ -8,6 +8,18 @@ app.get('/', (req, res) => {
   res.render('pages/index');
 })
 
+app.get('/todo', (req, res) => {
+  res.render('pages/todo');
+})
+
+app.get('/workflow', (req, res) => {
+  res.render('pages/workflow');
+})
+
+app.get('/about', (req, res) => {
+  res.render('pages/about');
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })

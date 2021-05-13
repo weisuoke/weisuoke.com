@@ -1,0 +1,65 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('../partials/head') %>
+</head>
+<body class="container">
+
+<header>
+    <%- include ('../partials/header') %>
+</header>
+
+<main>
+    <div class="jumbotron">
+        <h3>TodoList</h3>
+
+        <br>
+
+        <h4>前端</h4>
+
+        <ul>
+            <li>
+                <input type="checkbox" /> jest + rtl
+            </li>
+            <li>
+                <input type="checkbox" /> Gatsby 博客系统搭建 （wuxiao.io）
+            </li>
+            <li>
+                <input type="checkbox" /> Typecho 博客 (blog.weisuoke.com)
+            </li>
+            <li>
+                <input type="checkbox" /> Udemy - GraphQL 教程
+            </li>
+            <li>
+                <input type="checkbox" /> Udemy - Gatsby 教程
+            </li>
+        </ul>
+
+        <br>
+
+        <h4>后端</h4>
+        <h5>Java</h5>
+            <ul>
+                <li>
+                    <input type="checkbox" /> 马士兵 Java零基础后端工程师
+                </li>
+                <li>
+                    <input type="checkbox" /> 慕课网 Java工程师
+                </li>
+            </ul>
+        <h5>Go</h5>
+
+        <br>
+
+        <h4>算法</h4>
+    </div>
+</main>
+
+<footer>
+    <%- include ('../partials/footer') %>
+</footer>
+
+</body>
+</html>
